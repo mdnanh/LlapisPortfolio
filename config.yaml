@@ -1,7 +1,7 @@
 baseURL: "https://mdnanh.github.io/LlapisPortfolio/"
 languageCode: "en-us"
 title: "🙋‍♂️ Hi, I'm Nhật Anh"
-theme: "hugopro5"
+theme: hugopro5
 
 outputs:
   home:
