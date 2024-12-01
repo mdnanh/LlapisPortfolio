@@ -1,0 +1,26 @@
+/* Thêm khoảng cách giữa câu thông báo và các mục Contact */
+.contact-info {
+    margin-top: 30px;  /* Khoảng cách giữa content và phần liên lạc */
+}
+
+/* Cải thiện khoảng cách giữa các label (Phone, Email, Address) */
+.contact-item {
+    font-size: 1.2rem;
+    margin-bottom: 15px;  /* Khoảng cách giữa các mục liên lạc */
+}
+
+/* Cải thiện khoảng cách giữa câu thông báo "Feel free to reach out" và phần liên lạc */
+.contact-message {
+    margin-bottom: 30px; /* Điều chỉnh khoảng cách phía dưới */
+    font-size: 1.2rem;  /* Font chữ cho câu thông báo */
+}
+
+/* Tùy chỉnh link email khi hover */
+.contact-email {
+    color: inherit;
+    text-decoration: none;
+}
+
+.contact-email:hover {
+    text-decoration: underline; /* Gạch chân khi rê chuột vào email */
+}

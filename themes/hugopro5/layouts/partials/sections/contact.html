@@ -1,0 +1,35 @@
+{{ if .Site.Params.contact.enable | default false }}
+<section id="contact" class="py-5">
+    <div class="container">
+        <h3 class="text-center">{{ .Site.Params.contact.title | default "Get in Touch" }}</h3>
+        <div class="px-0 px-md-5 px-lg-5">
+            <div class="row justify-content-center px-md-5">
+                <div class="col-md-8 py-3">
+                    <div class="text-center">
+                        {{ .Site.Params.contact.content | emojify | markdownify }}
+                    </div>
+                    <div class="contact-info">
+                        <!-- Phone Number without hyperlink -->
+                        {{ if .Site.Params.contact.phone }}
+                        <p class="contact-item"><strong class="contact-label">Phone Number:</strong> {{ .Site.Params.contact.phone }}</p>
+                        {{ end }}
+
+                        <!-- Email as Hyperlink -->
+                        {{ if .Site.Params.contact.email }}
+                        <p class="contact-item"><strong class="contact-label">Email:</strong> 
+                            <a href="mailto:{{ .Site.Params.contact.email }}" class="contact-email">{{ .Site.Params.contact.email }}</a>
+                        </p>
+                        {{ end }}
+
+                        <!-- Address -->
+                        {{ if .Site.Params.contact.address }}
+                        <p class="contact-item"><strong class="contact-label">Address:</strong> {{ .Site.Params.contact.address }}</p>
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact-form-status"></div>
+</section>
+{{ end }}
