@@ -53,8 +53,6 @@ Menus:
     #   weight: 2
 
 params:
-  theme:
-    disablethemetoggle: false
   title: "Hi, I'm Nhật Anh"
   description: Text about my cool site
   # staticPath: ""  # The path to serve the static files from
@@ -77,8 +75,8 @@ params:
   animate: true
 
   theme:
-    # disableThemeToggle: true
-    # defaultTheme: "light" # dark
+    disableThemeToggle: true
+    defaultTheme: "dark" # dark
 
   font:
     fontSize: 1rem # default: 1rem
