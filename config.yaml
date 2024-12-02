@@ -275,7 +275,7 @@ params:
             url: https://github.com/mdnanh/StreamingEcommerceDE
       - title: Customer Analysis BigData
         content: A customer analysis project leveraging big data tools to analyze and derive insights from large customer datasets. The project focuses on identifying trends, behaviors, and patterns to support data-driven business decisions.
-        url: /projects/customerBD
+        url: /customerbd
         image: /images/projects/customer/CA.png
         featured:
           name: Read more
