@@ -1,6 +1,6 @@
 ---
 title: "Customer Analysis BigData"
-date: 2023-10-01
+date: 2024-10-01
 draft: false
 author: "Llapis"
 tags:
