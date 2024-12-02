@@ -293,7 +293,7 @@ params:
         image: /images/projects/CDCRecruit/recruitCDC.png
         featured:
           name: Read more
-          link: /projects/CDCRecruit
+          link: /projects/cdcrecruit
         badges:
           - "Apache Spark"
           - "MySQL"
