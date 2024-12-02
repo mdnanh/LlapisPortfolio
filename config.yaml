@@ -289,7 +289,7 @@ params:
             url: https://github.com/mdnanh/CustomerAnalysisBigData
       - title: CDCAnalysisRecruitment
         content: A project focused on analyzing customer data using change data capture (CDC) techniques. It enables efficient and real-time synchronization of customer data for recruitment processes, ensuring up-to-date insights.
-        url: /projects/CDCRecruit
+        url: /projects/cdcrecruit
         image: /images/projects/CDCRecruit/recruitCDC.png
         featured:
           name: Read more
