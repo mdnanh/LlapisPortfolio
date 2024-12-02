@@ -260,7 +260,7 @@ params:
     items:
       - title: Streaming E-Commerce Data Engineering
         content: A streaming data processing project, building a real-time pipeline for an e-commerce platform. The project focuses on collecting, processing, and visualizing customer and transaction data.
-        url: /projects/streamingrealtime
+        url: /projects/customerBD
         image: /images/projects/streaming/streamingecom.png
         featured:
           name: Read more
