@@ -24,3 +24,12 @@
 .contact-email:hover {
     text-decoration: underline; /* Gạch chân khi rê chuột vào email */
 }
+
+.contact-phone {
+    color: inherit;
+    text-decoration: none;
+}
+
+.contact-phone:hover {
+    text-decoration: underline; /* Gạch chân khi rê chuột vào email */
+}
