@@ -131,7 +131,7 @@ params:
     title: "Nhat Anh."
     subtitle: "The harder you work, the luckier you get"
     content: "A dedicated Data Engineer. I focus on designing and optimizing data pipelines to ensure seamless data flow and efficient processing."
-    image: /llapis.jpg
+    image: /images/anhport.jpeg
     #/images/hero.svg
     bottomImage:
       enable: true
@@ -157,7 +157,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/anhport.jpeg"
+    image: "/llapis.jpg"
     content: |-
       I’m an enthusiastic and motivated data engineer at the start of my career, eager to apply my academic knowledge and hands-on learning in the field. I’m excited about the opportunity to contribute to meaningful projects, collaborate with talented teams, and continue to grow as a data professional
 
