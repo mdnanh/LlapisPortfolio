@@ -221,7 +221,7 @@ params:
           name: "International University - VNU HCMC"
           url: "https://hcmiu.edu.vn/"
         date: "Class of 2019"
-        # GPA: "3.9 out of 5.0"
+        GPA: "7.1 out of 10.0"
         content: |-
           Coursework:
           - Data Analysis, Fundamentals of Big Data Technology, Data Science and Data Visualization, Principles
